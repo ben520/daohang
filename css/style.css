@@ -11,12 +11,17 @@ body::before{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(125deg,#fdcbf1,#e6dee9,#a1c4fd,#a8edea,#d299c2);
+    background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
     /*background: transparent url('../img/bg.jpg') no-repeat fixed;*/
     /*filter: blur(8px);*/
     background-size: cover;
     z-index: -1;
     
+}
+.yu{
+	position: fixed;
+	height: 100%;
+	width: 100%;
 }
 .container{
     position: absolute;
