@@ -21,7 +21,7 @@ function updateMouse(x, y) {
 function setUpEvent() {
   movements.forEach((move) => {
     window.addEventListener(move, function (event) {
-      event.preventDefault();
+      
       const { x, y } = getMousePos(canvas, event, mouse);
       mouse.dead = false;
       updateMouse(x, y);
@@ -29,7 +29,7 @@ function setUpEvent() {
   });
   leaves.forEach((move) => {
     window.addEventListener(move, function (event) {
-      event.preventDefault();
+      
       updateMouse(0, 0);
       mouse.dead = true;
     });
