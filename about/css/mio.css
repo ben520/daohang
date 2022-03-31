@@ -284,8 +284,8 @@ li{
     color: white;
     float: left;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    top: 1523px;
     margin-bottom: 30px;
     /* background-color: blue; */
 }
