@@ -278,7 +278,7 @@ li{
 .cmd2 .cmdText .ul a:hover {
     color: rgb(0, 132, 255);
 }
-
+/*
 #footer {
     width: 100%;
     color: white;
@@ -298,7 +298,7 @@ li{
 #footer a:hover {
     color: rgb(0, 81, 255);
 }
-
+*/
 /* 自适应 */
 @media screen and (max-width: 1250px)
 {
